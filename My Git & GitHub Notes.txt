@@ -1,0 +1,51 @@
+// Why Git and GitHUB?
+- if you wanna collaborate with other people in a project.
+- if you want to see how the code (which you wrote in the past) for your application used to look in the past time.
+- history of your application or project.
+- helps us to contribute to open source
+- which person made which change where in the project, git helps us in doing that. (open source)
+
+// what is GitHUB?
+- a platform or online website which help us to host our git repositories
+- repository is like basically a folder where all the changes are saved
+
+
+// GitHUB is version control system which allow us to host your projects online
+// there are also a lot of other online platform services that also offer us to host our repositories like 
+// GitLab,Bitbucket etc..
+
+// why do we use terminal 
+// terminal allows us to manipulate the file structure using commands 
+// change directory --> double clicking on the directory/folder
+
+// Where is entire history being stored?
+// it stores in a folder that git provide us known as git repository
+// folder name --> .git (these files are hidden)
+
+// how to get this folder?
+// commands : 
+// git init --> initilizes empty git repository
+// ls -a (-a --> show me all the hidden files)
+// ls .git (to see what's inside this git folder)
+// touch --> to create a file
+// cd project --> double click
+// git status
+// git add individualFileNames (names.text) or AllAtOnce (.) --> on stage
+// git commit -m "names.txt file added"  --> click photo
+   -m --> message "message goes here"
+
+
+// vi names.txt --> text editor 
+// cat names.txt --> to show what's in file
+
+// git restore --staged names.txt --> removing file from stage without commiting it
+// 6 insertions(+) --> because 6 lines were added by me
+
+
+// git log --> to see entire history of the project
+// rm -rf names.txt --> to delete this file names.txt
+
+
+// you can't remove any commit from middle,
+// you have to unstage them from the top of the commits 
+
