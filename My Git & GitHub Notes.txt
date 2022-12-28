@@ -48,4 +48,35 @@
 
 // you can't remove any commit from middle,
 // you have to unstage them from the top of the commits 
+// git reset 555e7cfb3be481e1970e5692d1b6cd8ca480a08e
+// this will remove all the commits above this commit i have copied above
+// now these these commits which i have removed is now again in the unstaged area
+
+
+// I can put all the work/code somewhere in the backstage (without saving them)
+// without making commit or without saving it in the history
+// and i can get back this work whenever i want..  --> git stash
+git add . --> first come on stage
+git stash --> now go to the backstage area, come back only whenever i'll call you
+git stash pop --> to get these backstaged files in the unstaged area
+git stash clear --> to delete/clear these backstaged files
+
+
+------------------------------------------------------------------------------------------
+// How to post your project on GitHUB
+
+// steps :
+1) create new repository on github website
+
+2) attach the repository url to our local project
+   command --> git remote add origin URL
+
+3) By convention all the URL that are attached to our repository starts with the name 
+   origin
+   command to show all the URL attached with my repository --> git remote -v
+   for e.g -->  origin  https://github.com/realrahulbisht/FirstRespository.git 
+
+4) to share the changes in the repository
+   command --> git push origin(URL) master(branch)
+
 
